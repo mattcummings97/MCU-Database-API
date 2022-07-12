@@ -102,9 +102,9 @@ app.get('/',(request, response)=>{
 app.get('/api/:marvelUniverseDataBase',(request,response)=>{
     const heroName = request.params.marvelUniverseDataBase.toLowerCase()
     if(superheroes[heroName]){ 
-        response.json(superheros[heroName])
+        response.json(superheroes[heroName])
     }else{
-        response.json(superheros[unknown])
+        response.json(superheroes[unknown])
     }
 })
 
