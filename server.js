@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 const PORT = 8000
 
-const superheros = {
+const superheroes = {
     'captain america': {
     'originalMCUAppearance': 'Captain America: The First Avenger',
     'name': 'Steve Rodgers',
@@ -101,7 +101,7 @@ app.get('/',(request, response)=>{
 
 app.get('/api/:marvelUniverseDataBase',(request,response)=>{
     const heroName = request.params.marvelUniverseDataBase.toLowerCase()
-    if(superheros[heroName]){ 
+    if(superheroes[heroName]){ 
         response.json(superheros[heroName])
     }else{
         response.json(superheros[unknown])
