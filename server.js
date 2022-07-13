@@ -88,7 +88,13 @@ const superheroes = {
         'originalMCUAppearance': 'AntMan and The Wasp',
         'name': 'Hope Van Dyne',
         'numberOfMovies': 2,
-        'latestAppearance': 'Avengers: EndGAme'
+        'latestAppearance': 'Avengers: EndGame'
+    },
+    'Dr.Strange':{
+        'originalMCUAppearance': 'Dr. Strange ',
+        'name': 'Steven Strange',
+        'numberOfMovies': 6,
+        'latestAppearance': 'Dr. Strange in the Multiverse of Madness'
     },
     'unknown':{
             'originalMCUAppearance': 'Unknown',
