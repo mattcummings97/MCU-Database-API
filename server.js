@@ -9,7 +9,7 @@ const superheroes = {
     'captain america': {
     'originalMCUAppearance': 'Captain America: The First Avenger',
     'name': 'Steve Rodgers',
-    'numberOfMovies' : 11, 
+    'numberOfMovies' : 11,
     'latestAppearance': 'Avengers: EndGame'
     },
     'iron man':{
