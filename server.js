@@ -78,23 +78,29 @@ const superheroes = {
         'numberOfMovies': 5,
         'latestAppearance': 'Thor: Love & Thunder'
     },
-    'Gamora':{
+    'gamora':{
         'originalMCUAppearance': 'Guardians Of The Galaxy',
         'name': 'Gamora',
         'numberOfMovies': 5,
         'latestAppearance': 'Thor: Love & Thunder'
     },
-    'The Wasp':{
+    'the wasp':{
         'originalMCUAppearance': 'AntMan and The Wasp',
         'name': 'Hope Van Dyne',
         'numberOfMovies': 2,
         'latestAppearance': 'Avengers: EndGame'
     },
-    'Dr.Strange':{
+    'dr.strange':{
         'originalMCUAppearance': 'Dr. Strange ',
         'name': 'Steven Strange',
         'numberOfMovies': 6,
         'latestAppearance': 'Dr. Strange in the Multiverse of Madness'
+    },
+    'spiderman':{
+        'originalMCUAppearance': 'Captain America: Civil War',
+        'name': 'Peter Parker',
+        'numberOfMovies': 6,
+        'latestAppearance': 'SpiderMan: No Way Home'
     },
     'unknown':{
             'originalMCUAppearance': 'Unknown',
