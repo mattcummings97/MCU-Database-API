@@ -34,7 +34,7 @@ const superheroes = {
         'originalMCUAppearance': 'Thor',
         'name': 'Clint Barton',
         'numberOfMovies' : 6,
-        'latestAppearance': 'Hawkeye [Disney Plus Series]'
+        'latestAppearance': 'Hawkeye [Disney+ Series]'
     },
     'thor':{
         'originalMCUAppearance': 'Thor',
@@ -42,7 +42,7 @@ const superheroes = {
         'numberOfMovies' : 8,
         'latestAppearance': 'Thor: Love & Thunder'
     },
-    'starlord':{
+    'star-lord':{
         'originalMCUAppearance': 'Guardians Of The Galaxy',
         'name': 'Peter Quill',
         'numberOfMovies': 5,
@@ -64,9 +64,9 @@ const superheroes = {
         'originalMCUAppearance': 'Captain Marvel',
         'name': 'Carol Danvers',
         'numberOfMovies': 4,
-        'latestAppearance': 'Shang Chi and The Legend Of The 10 Rings [Post Credit]'
+        'latestAppearance': 'Ms. Marvel [Post Credit]'
     },
-    'antman':{
+    'ant-man':{
         'originalMCUAppearance': 'AntMan',
         'name': 'Scott Lang',
         'numberOfMovies': 4,
@@ -96,17 +96,155 @@ const superheroes = {
         'numberOfMovies': 6,
         'latestAppearance': 'Dr. Strange in the Multiverse of Madness'
     },
-    'spiderman':{
+    'spider-man':{
         'originalMCUAppearance': 'Captain America: Civil War',
         'name': 'Peter Parker',
         'numberOfMovies': 6,
         'latestAppearance': 'SpiderMan: No Way Home'
+    },
+    'black panther':{
+        'originalMCUAppearance': 'Captain America: Civil War',
+        'name': "T'Challa",
+        'numberOfMovies': 4,
+        'latestAppearance': 'Avengers: EndGame'
+    },
+    'scarlet witch':{
+        'originalMCUAppearance': 'Captain America: Winter Soldier [Post Credit]',
+        'name': 'Wanda Maximoff',
+        'numberOfMovies': 6,
+        'latestAppearance': 'Dr. Strange in the Multiverse of Madness'
+    },
+    'vision':{
+        'originalMCUAppearance': 'Avengers: Age Of Ultron',
+        'name': 'Vision',
+        'numberOfMovies': 4,
+        'latestAppearance': 'WandaVision [Disney+ Series]'
     },
     'unknown':{
             'originalMCUAppearance': 'Unknown',
             'name': 'Unknown',
             'numberOfMovies': 0,
             'latestAppearance': 'Unknown'
+    },
+    'nebula':{
+        'originalMCUAppearance': 'Guardians Of The Galaxy',
+        'name': 'Nebula',
+        'numberOfMovies': 5,
+        'latestAppearance': 'Thor: Love & Thunder'
+    },
+    'mantis':{
+        'originalMCUAppearance': 'Guardians Of The Galaxy Vol. 2',
+        'name': 'Nebula',
+        'numberOfMovies': 5,
+        'latestAppearance': 'Thor: Love & Thunder'
+    },
+    'wong':{
+        'originalMCUAppearance': 'Dr. Strange',
+        'name': 'Wong',
+        'numberOfMovies': 6,
+        'latestAppearance': 'Dr. Strange in the Multiverse Of Madness'
+    },
+    'winter soldier':{
+        'originalMCUAppearance': 'Captain America: The Winter Soldier',
+        'name': 'Bucky Barnes',
+        'numberOfMovies': 8,
+        'latestAppearance': 'Falcon and The Winter Soldier [Disney+ Series]'
+    },
+    'she-hulk':{
+        'originalMCUAppearance': 'She-Hulk: Attorney at Law [Disney+ Series]',
+        'name': 'Jennifer Walters',
+        'numberOfMovies': 1,
+        'latestAppearance': 'She-Hulk: Attorney at Law [Disney+ Series]'
+    },
+    'shuri':{
+        'originalMCUAppearance': 'Black Panther',
+        'name': 'Shuri',
+        'numberOfMovies': 3,
+        'latestAppearance': 'Avengers: EndGame'
+    },
+    'moon knight':{
+        'originalMCUAppearance': 'Moon-Knight [Disney+ Series]',
+        'name': 'Marc Spector',
+        'numberOfMovies': 1,
+        'latestAppearance': 'Moon-Knight'
+    },
+    'valkyrie':{
+        'originalMCUAppearance': 'Thor: Ragnarok',
+        'name': 'Brunnhilde',
+        'numberOfMovies': 3,
+        'latestAppearance': 'Thor: Love & Thunder'
+    },
+    'korg':{
+        'originalMCUAppearance': 'Thor: Ragnarok',
+        'name': 'Korg',
+        'numberOfMovies': 3,
+        'latestAppearance': 'Thor: Love & Thunder'
+    },
+    'the mighty thor':{
+        'originalMCUAppearance': 'Thor',
+        'name': 'Jane Foster',
+        'numberOfMovies': 4,
+        'latestAppearance': 'Thor: Love & Thunder'
+    },
+    'kate bishop':{
+        'originalMCUAppearance': 'Hawkeye [Disney+ Series]',
+        'name': 'Kate Bishop',
+        'numberOfMovies': 1,
+        'latestAppearance': 'Hawkeye [Disney+ Series]'
+    },
+    'ms.marvel':{
+        'originalMCUAppearance': 'Ms. Marvel [Disney+ Series]',
+        'name': 'Kamala Khan',
+        'numberOfMovies': 1,
+        'latestAppearance': 'Ms. Marvel [Disney+ Series]'
+    },
+    'nick fury':{
+        'originalMCUAppearance': 'Iron Man',
+        'name': 'Nick Fury',
+        'numberOfMovies': 11,
+        'latestAppearance': 'SpiderMan: Far From Home'
+    },
+    'quicksilver':{
+        'originalMCUAppearance': 'Captain America: The Winter Soldier [Post Credit Scene]',
+        'name': 'Pietro Maximoff',
+        'numberOfMovies': 2,
+        'latestAppearance': 'Avengers: Age of Ultron'
+    },
+    'phastos':{
+        'originalMCUAppearance': 'The Eternals',
+        'name': 'Phastos',
+        'numberOfMovies': 1,
+        'latestAppearance': 'The Eternals'
+    },
+    'ajak':{
+        'originalMCUAppearance': 'The Eternals',
+        'name': 'Ajak',
+        'numberOfMovies': 1,
+        'latestAppearance': 'The Eternals'
+    },
+    'makkari':{
+        'originalMCUAppearance': 'The Eternals',
+        'name': 'Makkari',
+        'numberOfMovies': 1,
+        'latestAppearance': 'The Eternals'
+    },
+    'war machine':{
+        'originalMCUAppearance': 'Iron Man',
+        'name': 'James Rhodes',
+        'numberOfMovies': 8,
+        'latestAppearance': 'Falcon and The Winter Solider [Disney+ Series]'
+    },
+    'kingo':{
+        'originalMCUAppearance': 'The Eternals',
+        'name': 'Kingo',
+        'numberOfMovies': 1,
+        'latestAppearance': 'The Eternals'
+    },
+    'gilgamesh':{
+        'originalMCUAppearance': 'The Eternals',
+        'name': 'Gilgamesh',
+        'numberOfMovies': 1,
+        'latestAppearance': 'The Eternals'
     },
 }
 //similar to a eventListener... app.get === a network request// 
