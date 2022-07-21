@@ -246,6 +246,24 @@ const superheroes = {
         'numberOfMovies': 1,
         'latestAppearance': 'The Eternals'
     },
+    'starfox':{
+        'originalMCUAppearance': 'The Eternals',
+        'name': 'Starfox',
+        'numberOfMovies': 1,
+        'latestAppearance': 'The Eternals'
+    },
+    'sersi':{
+        'originalMCUAppearance': 'The Eternals',
+        'name': 'Sersi',
+        'numberOfMovies': 1,
+        'latestAppearance': 'The Eternals'
+    },
+    'ikaris':{
+        'originalMCUAppearance': 'The Eternals',
+        'name': 'Ikaris p',
+        'numberOfMovies': 1,
+        'latestAppearance': 'The Eternals'
+    },
 }
 //similar to a eventListener... app.get === a network request// 
 app.get('/',(request, response)=>{
